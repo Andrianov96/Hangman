@@ -1,7 +1,7 @@
 
 
 <a href="https://codecov.io/gh/Andrianov96/Hangman">
-  <img src="https://travis-ci.org/Andrianov96/Hangman.svg?branch=master" alt="Codecov" />
+  <img src="https://travis-ci.org/Andrianov96/Hangman.svg?branch=master" alt="Travis" />
 </a>
 
 <a href="https://codecov.io/gh/Andrianov96/Hangman">
