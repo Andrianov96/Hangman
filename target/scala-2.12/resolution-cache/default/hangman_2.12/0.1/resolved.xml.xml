@@ -4,7 +4,7 @@
 		module="hangman_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20170925111536"
+		publication="20170925152405"
 	>
 		<description>
 		Hangman
@@ -34,6 +34,8 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.3" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.12" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.12" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
 		<dependency org="com.novocode" name="junit-interface" rev="0.8" conf="test->default"/>
 		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
 		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.1" conf="compile->default(compile)"/>
