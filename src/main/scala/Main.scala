@@ -2,6 +2,10 @@ import scala.util.Random
 
 object Main extends App{
 
+  trait Output {
+    def print(s: String) = Console.println(s)
+  }
+
   def tes_fun(b:Boolean):String ={
     if (b) "Right" else "Wrong"
   }

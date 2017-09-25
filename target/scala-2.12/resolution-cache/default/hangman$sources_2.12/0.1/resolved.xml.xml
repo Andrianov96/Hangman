@@ -4,7 +4,7 @@
 		module="hangman$sources_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20170925111536"
+		publication="20170925144618"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
