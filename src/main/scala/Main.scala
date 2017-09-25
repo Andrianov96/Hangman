@@ -2,6 +2,10 @@ import scala.util.Random
 
 object Main extends App{
 
+  def tes_fun(b:Boolean):String ={
+    if (b) "Right" else "Wrong"
+  }
+
   def printCurWord(s: String, guessed: Set[Char]) = {
     println(s.map((x: Char) => if (guessed(x)) x else '*'))
   }
@@ -14,6 +18,11 @@ object Main extends App{
 
     var success = false
     var i = 1
+
+  def work_on_letter(letter: String): Unit ={
+
+  }
+
     while (i <= trying && !success) {
       println("Guess a letter:")
       var letter = io.StdIn.readLine()

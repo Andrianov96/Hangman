@@ -4,7 +4,7 @@
 		module="hangman_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20170925102144"
+		publication="20170925111536"
 	>
 		<description>
 		Hangman
@@ -36,5 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.novocode" name="junit-interface" rev="0.8" conf="test->default"/>
 		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
+		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.1" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

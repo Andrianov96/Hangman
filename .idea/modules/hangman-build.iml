@@ -73,5 +73,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="SBT: org.scalatest:scalatest_2.12:3.0.1:jar" level="project" />
   </component>
 </module>
