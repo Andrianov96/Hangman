@@ -2,20 +2,16 @@ import scala.util.Random
 
 object Main extends App{
 
-  trait Output {
-    def print(s: String) = Console.println(s)
-  }
-
-  def tes_fun(b:Boolean):String ={
-    if (b) "Right" else "Wrong"
-  }
-
   def printCurWord(s: String, guessed: Set[Char]) = {
     println(s.map((x: Char) => if (guessed(x)) x else '*'))
   }
 
   def CurWord(s: String, guessed: Set[Char]):String = {
     s.map((x: Char) => if (guessed(x)) x else '*')
+  }
+
+  def addChar(guessed:Set[Char], adding:String):Set[Char] = {
+    guessed ++ adding
   }
     val trying = 5
     var dictionary = new Array[String](10)
@@ -32,19 +28,18 @@ object Main extends App{
       println("Guess a letter:")
       var letter = io.StdIn.readLine()
       if (currentString.contains(letter)) {
-        guessed = guessed ++ letter
+        guessed = addChar(guessed, letter)
         println("Hit!")
         println(CurWord(currentString, guessed))
-        if (currentString.forall(guessed(_))){
-          success = true
-        }
       } else {
         println(s" Missed, mistake $i out of $trying.")
-        printCurWord(currentString, guessed)
+        println(CurWord(currentString, guessed))
         i += 1
       }
+      if (currentString.forall(guessed(_))){
+        success = true
+      }
     }
-
     if (success) println("You win!") else println("You lost!")
 
 }

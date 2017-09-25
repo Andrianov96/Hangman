@@ -9,4 +9,8 @@ class Mytest extends FlatSpec {
     assertEquals("****", Main.CurWord("hate", Set()))
   }
 
+  it should "return " in {
+    val n = Set() ++ "a"
+    assertEquals(n, Main.addChar(Set(), "a"))
+  }
 }
