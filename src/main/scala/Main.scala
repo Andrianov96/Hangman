@@ -1,7 +1,10 @@
 import scala.util.Random
 
-object Main {
-  def main(args: Array[String]): Unit = {
+object Main extends App{
+
+  def printCurWord(s: String, guessed: Set[Char]) = {
+    println(s.map((x: Char) => if (guessed(x)) x else '*'))
+  }
     val trying = 5
     var dictionary = new Array[String](10)
     dictionary(0) = "hate"
@@ -30,9 +33,5 @@ object Main {
 
     if (success) println("You win!") else println("You lost!")
 
-  }
-
-  def printCurWord(s: String, guessed: Set[Char]) = {
-    println(s.map((x: Char) => if (guessed(x)) x else '*'))
-  }
 }
+
