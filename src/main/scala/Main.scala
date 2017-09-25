@@ -13,19 +13,20 @@ object Main extends App{
   def printCurWord(s: String, guessed: Set[Char]) = {
     println(s.map((x: Char) => if (guessed(x)) x else '*'))
   }
+
+  def CurWord(s: String, guessed: Set[Char]):String = {
+    s.map((x: Char) => if (guessed(x)) x else '*')
+  }
     val trying = 5
     var dictionary = new Array[String](10)
     dictionary(0) = "hate"
-    dictionary(1) = "homework"
+    dictionary(1) = "home"
+    dictionary(2) = "work"
     var guessed: Set[Char] = Set()
-    var currentString = dictionary(Math.abs(Random.nextInt() % 2))
+    var currentString = dictionary(Math.abs(Random.nextInt() % 3))
 
     var success = false
     var i = 1
-
-  def work_on_letter(letter: String): Unit ={
-
-  }
 
     while (i <= trying && !success) {
       println("Guess a letter:")
@@ -33,7 +34,7 @@ object Main extends App{
       if (currentString.contains(letter)) {
         guessed = guessed ++ letter
         println("Hit!")
-        printCurWord(currentString, guessed)
+        println(CurWord(currentString, guessed))
         if (currentString.forall(guessed(_))){
           success = true
         }

@@ -7,3 +7,5 @@ test
 scala -cp .:scalatest-3.0.1.jar:junit-4.4.jar org.junit.runner.JUnitCore HangmanTest
 coverageReport
 version
+clean coverage test
+coverageReport

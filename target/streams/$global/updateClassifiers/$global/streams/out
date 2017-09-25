@@ -1,5 +1,5 @@
 [debug] :: resolving dependencies :: default#hangman$sources_2.12;0.1
-[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
@@ -1174,6 +1174,8 @@
 [debug] == resolving dependencies default#hangman$sources_2.12;0.1->jline#jline;2.14.4 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#hangman$sources_2.12;0.1->jline#jline;2.14.4 [scala-tool->compile(*)]
 [debug] == resolving dependencies default#hangman$sources_2.12;0.1->jline#jline;2.14.4 [scala-tool->master]
+[debug] resolving dependencies for configuration 'scoveragePlugin'
+[debug] == resolving dependencies for default#hangman$sources_2.12;0.1 [scoveragePlugin]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
@@ -1188,7 +1190,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar(src)
-[debug] :: resolution report :: resolve 293ms :: artifacts dl 12ms
+[debug] :: resolution report :: resolve 38ms :: artifacts dl 7ms
 [debug] 	report for default#hangman$sources_2.12;0.1 compile produced in C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\target\scala-2.12\resolution-cache\reports\default-hangman$sources_2.12-compile.xml
 [debug] 	report for default#hangman$sources_2.12;0.1 runtime produced in C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\target\scala-2.12\resolution-cache\reports\default-hangman$sources_2.12-runtime.xml
 [debug] 	report for default#hangman$sources_2.12;0.1 test produced in C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\target\scala-2.12\resolution-cache\reports\default-hangman$sources_2.12-test.xml
@@ -1202,4 +1204,5 @@
 [debug] 	report for default#hangman$sources_2.12;0.1 docs produced in C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\target\scala-2.12\resolution-cache\reports\default-hangman$sources_2.12-docs.xml
 [debug] 	report for default#hangman$sources_2.12;0.1 pom produced in C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\target\scala-2.12\resolution-cache\reports\default-hangman$sources_2.12-pom.xml
 [debug] 	report for default#hangman$sources_2.12;0.1 scala-tool produced in C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\target\scala-2.12\resolution-cache\reports\default-hangman$sources_2.12-scala-tool.xml
-[debug] 	resolve done (293ms resolve - 12ms download)
+[debug] 	report for default#hangman$sources_2.12;0.1 scoveragePlugin produced in C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\target\scala-2.12\resolution-cache\reports\default-hangman$sources_2.12-scoveragePlugin.xml
+[debug] 	resolve done (38ms resolve - 7ms download)

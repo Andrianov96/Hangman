@@ -6,8 +6,8 @@
 		module="hangman$sources_2.12"
 		revision="0.1"
 		conf="test"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170925144618"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
+		date="20170925154215"/>
 	<dependencies>
 		<module organisation="junit" name="junit">
 			<revision name="4.12" status="release" pubdate="20141204191743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
