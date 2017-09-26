@@ -10,4 +10,6 @@
 
 Hangman is an attempt to pass homework #2 
 
+To start codestyle check call "sbt scalastyle"
+
 Copyright © 2017 Andrianov Georgiy
