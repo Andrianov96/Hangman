@@ -10,6 +10,10 @@
 
 Hangman is an attempt to pass homework #2 
 
+To install sbt call "sudo apt-get install sbt"
+
+To build and run project call "sbt run"
+
 To start codestyle check call "sbt scalastyle"
 
 Copyright © 2017 Andrianov Georgiy
