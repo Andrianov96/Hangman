@@ -11,3 +11,6 @@ clean coverage test
 coverageReport
 scalastyleGenerateConfig 
 scalastyle
+build.sbt
+run
+exit

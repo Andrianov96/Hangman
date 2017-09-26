@@ -35,10 +35,10 @@ object Main extends App{
       if (currentString.contains(letter)) {
         guessed = addChar(guessed, letter)
         println("Hit!")
-        println(CurWord(currentString, guessed))
+        println(curWord(currentString, guessed))
       } else {
         println(s" Missed, mistake $i out of $trying.")
-        println(CurWord(currentString, guessed))
+        println(curWord(currentString, guessed))
         i += 1
       }
       if (currentString.forall(guessed(_))){

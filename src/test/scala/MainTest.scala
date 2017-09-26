@@ -6,7 +6,7 @@ class Mytest extends FlatSpec {
 
 
   it should "return ****" in {
-    assertEquals("****", Main.CurWord("hate", Set()))
+    assertEquals("****", Main.curWord("hate", Set()))
   }
 
   it should "return " in {
