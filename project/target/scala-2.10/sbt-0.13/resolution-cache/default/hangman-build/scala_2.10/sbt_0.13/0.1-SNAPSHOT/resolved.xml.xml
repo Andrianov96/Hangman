@@ -4,7 +4,7 @@
 		module="hangman-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170925154206"
+		publication="20170926171800"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

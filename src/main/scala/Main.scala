@@ -2,19 +2,24 @@ import scala.util.Random
 
 object Main extends App{
 
-  def printCurWord(s: String, guessed: Set[Char]) = {
+  def printCurWord(s: String, guessed: Set[Char]):Unit = {
     println(s.map((x: Char) => if (guessed(x)) x else '*'))
   }
 
-  def CurWord(s: String, guessed: Set[Char]):String = {
+  def curWord(s: String, guessed: Set[Char]):String = {
     s.map((x: Char) => if (guessed(x)) x else '*')
   }
 
   def addChar(guessed:Set[Char], adding:String):Set[Char] = {
     guessed ++ adding
   }
+
+  class State {
+
+  }
     val trying = 5
-    var dictionary = new Array[String](10)
+    val dictionarySize = 10
+    var dictionary = new Array[String](dictionarySize)
     dictionary(0) = "hate"
     dictionary(1) = "home"
     dictionary(2) = "work"

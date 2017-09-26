@@ -9,3 +9,5 @@ coverageReport
 version
 clean coverage test
 coverageReport
+scalastyleGenerateConfig 
+scalastyle

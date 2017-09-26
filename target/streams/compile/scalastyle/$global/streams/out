@@ -1,0 +1,20 @@
+[0m[[0minfo[0m] [0mscalastyle using config C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\scalastyle-config.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:1: Header does not match expected text[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:5:59: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:32:13: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:36:16: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:36:40: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:38:35: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:40:25: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:45:10: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0mC:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala:47:2: Regular expression matched 'println'[0m
+[0m[[0mdebug[0m] [0mend file C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\src\main\scala\Main.scala[0m
+[0m[[0minfo[0m] [0mscalastyle Processed 1 file(s)[0m
+[0m[[0minfo[0m] [0mscalastyle Found 0 errors[0m
+[0m[[0minfo[0m] [0mscalastyle Found 9 warnings[0m
+[0m[[0minfo[0m] [0mscalastyle Found 0 infos[0m
+[0m[[0minfo[0m] [0mscalastyle Finished in 15 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: C:\Users\g.andrianov\Documents\Mygit\Hangman\Hangman\target[0m
+[0m[[33mwarn[0m] [0mwarnings exist[0m
